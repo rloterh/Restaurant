@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-#content {
-  height: 100vh;
-}
-
 .hlogo {
   font-family: 'Baloo Tammudu 2', cursive;
   font-weight: 800;
