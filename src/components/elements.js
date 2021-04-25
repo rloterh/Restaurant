@@ -1,61 +1,102 @@
+const docBody = document.body;
 const content = document.querySelector('#content');
 const header = document.createElement('header');
 const logowrap = document.createElement('div');
 const hlogo = document.createElement('div');
 const hlogo2 = document.createElement('div');
 const nav = document.createElement('nav');
-const home = document.createElement('div');
-const menu = document.createElement('div');
-const contact = document.createElement('div');
-const main = document.createElement('main');
+const homeLink = document.createElement('div');
+const menuLink = document.createElement('div');
+const contactLink = document.createElement('div');
+const mainOne = document.createElement('main');
+const mainTwo = document.createElement('main');
+const mainThree = document.createElement('main');
 const convText = document.createElement('div');
-const MenuOne = document.createElement('div');
-const card = document.createElement('div');
-const cardOne = document.createElement('button');
+const menuOne = document.createElement('div');
+const menuTwo = document.createElement('div');
+const menuThree = document.createElement('div');
+const cardOne = document.createElement('div');
+const cardTwo = document.createElement('div');
+const cardThree = document.createElement('div');
 const cardOneImg = document.createElement('img');
-const cardBody = document.createElement('div');
-const cardTitle = document.createElement('h4');
-const cardText = document.createElement('p');
-const cardBtn = document.createElement('a');
-const cardBtnDiv = document.createElement('div');
+const cardTwoImg = document.createElement('img');
+const cardThreeImg = document.createElement('img');
+const cardOneBody = document.createElement('div');
+const cardTwoBody = document.createElement('div');
+const cardThreeBody = document.createElement('div');
+const cardOneTitle = document.createElement('h4');
+const cardTwoTitle = document.createElement('h4');
+const cardThreeTitle = document.createElement('h4');
+const cardOneText = document.createElement('p');
+const cardTwoText = document.createElement('p');
+const cardThreeText = document.createElement('p');
+const cardOneBtn = document.createElement('a');
+const cardTwoBtn = document.createElement('a');
+const cardThreeBtn = document.createElement('a');
+const cardOneBtnDiv = document.createElement('div');
+const cardTwoBtnDiv = document.createElement('div');
+const cardThreeBtnDiv = document.createElement('div');
 const contactForm = document.createElement('form');
+const contactFormDiv = document.createElement('div');
 const email = document.createElement('input');
 const message = document.createElement('textarea');
-const formGroup = document.createElement('div');
+const formGroupOne = document.createElement('div');
+const formGroupTwo = document.createElement('div');
 const submitBtn = document.createElement('button');
 
-content.append(header, main);
+docBody.insertBefore(header, content);
+content.appendChild(mainOne);
 header.append(logowrap);
 logowrap.appendChild(hlogo);
 header.appendChild(nav);
-nav.append(home, menu, contact);
-main.appendChild(hlogo2);
-main.appendChild(convText);
+nav.append(homeLink, menuLink, contactLink);
+mainOne.appendChild(hlogo2);
+mainOne.appendChild(convText);
 
 export {
+  docBody,
   content,
   header,
   logowrap,
   hlogo,
   hlogo2,
   nav,
-  home,
-  menu,
-  contact,
-  main,
-  convText,
-  MenuOne,
-  card,
-  formGroup,
+  homeLink,
+  menuLink,
+  contactLink,
+  mainOne,
+  mainTwo,
+  mainThree,
+  convText, 
+  menuOne, 
+  menuTwo,
+  menuThree,
   cardOne,
+  cardTwo,
+  cardThree,
   cardOneImg,
-  cardBody,
-  cardTitle,
-  cardText,
-  cardBtn,
-  cardBtnDiv,
+  cardTwoImg,
+  cardThreeImg,
+  cardOneBody,
+  cardTwoBody,
+  cardThreeBody,
+  cardOneTitle,
+  cardTwoTitle,
+  cardThreeTitle,
+  cardOneText,
+  cardTwoText,
+  cardThreeText,
+  cardOneBtn,
+  cardTwoBtn,
+  cardThreeBtn,
+  cardOneBtnDiv,
+  cardTwoBtnDiv,
+  cardThreeBtnDiv,
   contactForm,
+  contactFormDiv,
   email,
   message,
+  formGroupOne,
+  formGroupTwo,
   submitBtn,
 };
