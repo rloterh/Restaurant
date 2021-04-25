@@ -10,8 +10,7 @@ const description = () => {
   e.convText.className += 'conv-text h3 px-2';
 };
 
-e.main.className = 'main d-flex flex-column align-items-center justify-content-center px-md-5';
+e.mainOne.className = 'main d-flex flex-column align-items-center justify-content-center px-md-5';
 document.body.classList = 'text-white';
-e.content.className += 'container-fluid vh-100';
 
 export { logo, description };
