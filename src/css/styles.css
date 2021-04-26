@@ -1,7 +1,7 @@
 @import "~bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600;700;800&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,13 +28,13 @@ form {
   min-width: 400px;
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   header {
     height: 100px;
   }
- }
+}
 
- @media (max-width: 991px) { 
+@media (max-width: 991px) {
   header {
     height: 300px;
   }
@@ -42,5 +42,4 @@ form {
   .main {
     height: calc(100vh - 300px);
   }
-  
- }
+}

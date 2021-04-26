@@ -24,6 +24,10 @@
     "css-loader": "^5.2.4",
     "file-loader": "^6.2.0",
     "style-loader": "^2.0.0",
+    "stylelint": "13.3.x",
+    "stylelint-config-standard": "20.0.x",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "3.17.x",
     "url-loader": "^4.1.1",
     "webpack": "^5.31.2",
     "webpack-cli": "^4.6.0"
