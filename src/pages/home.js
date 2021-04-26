@@ -1,8 +1,8 @@
 import * as e from '../components/elements';
 
 const logo = () => {
-   e.hlogo2.textContent = 'BurgerBest';
-   e.hlogo2.className += 'hlogo d-lg-none';
+  e.hlogo2.textContent = 'BurgerBest';
+  e.hlogo2.className += 'hlogo d-lg-none';
 };
 
 const description = () => {

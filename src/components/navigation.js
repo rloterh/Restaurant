@@ -14,7 +14,7 @@ const logo = () => {
   e.logowrap.className = 'd-flex justify-content-center mt-sm-5';
   e.hlogo.textContent = 'BurgerBest';
   e.hlogo.className = 'hlogo mt-5 mt-lg-4 d-none d-lg-block';
-}
+};
 
 const nav = () => {
   e.nav.className += 'nav d-flex align-items-center fw-bold text-capitalize my-5 mb-lg-0 mt-lg-4';

@@ -20,8 +20,12 @@
   "homepage": "https://github.com/rloterh/Restaurant#readme",
   "devDependencies": {
     "@popperjs/core": "^2.9.2",
+    "babel-eslint": "10.1.x",
     "bootstrap": "^5.0.0-beta3",
     "css-loader": "^5.2.4",
+    "eslint": "6.8.x",
+    "eslint-config-airbnb-base": "14.1.x",
+    "eslint-plugin-import": "2.20.x",
     "file-loader": "^6.2.0",
     "style-loader": "^2.0.0",
     "stylelint": "13.3.x",

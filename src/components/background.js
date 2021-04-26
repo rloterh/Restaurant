@@ -8,4 +8,4 @@ const backgroundImg = () => {
   document.body.style.backgroundSize = 'cover';
 };
 
-export default backgroundImg; 
+export default backgroundImg;
