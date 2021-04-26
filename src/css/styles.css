@@ -18,6 +18,10 @@
   height: calc(100vh - 100px);
 }
 
+nav {
+  cursor: pointer;
+}
+
 .conv-text,
 .menu,
 .contact {
